@@ -27,8 +27,8 @@ struct YourName: View {
             
             Button(action: {}) {
                 Text("Confirmar")
-                    .padding(.vertical, 16)
                     .padding(.horizontal, 40)
+                    .padding(.vertical, 16)
                     .foregroundColor(.white)
                     .background(Color("Button").cornerRadius(16))
             }
